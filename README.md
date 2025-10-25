@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RogueClick 90s 🎮
 
-## Getting Started
+---
 
-First, run the development server:
+## 🇫🇷 Français
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 📝 Description
+**RogueClick 90s** est un petit jeu web de type *auto-clicker rogue-lite* avec une touche nostalgique des années 90.  
+Le joueur clique pour accumuler des **Points de run 📼** qu’il peut dépenser dans une boutique aléatoire.  
+À la fin de chaque partie, une partie de ces points est convertie en **Points permanents 🎟**, permettant de débloquer des bonus durables et de progresser de run en run.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🚀 Technologies
+- ⚡ Next.js 14  
+- 🎨 Panda CSS  
+- ♿ React Aria Components  
+- 📦 Zustand  
+- 🔄 TanStack Query  
+- ✅ Zod  
+- 🧪 Vitest & Playwright  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### ▶️ Installation et lancement
+- `pnpm install`  
+- `pnpm panda`  
+- `pnpm dev`  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ✨ Fonctionnalités
+- Double monnaie : **Points de run 📼** (temporaire) et **Points permanents 🎟** (progression)  
+- Boutique générée aléatoirement à chaque run 🎲  
+- Système de bonus permanents pour améliorer les runs suivantes 💎  
+- Design rétro inspiré des années 90 🌌  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🇬🇧 English
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📝 Description
+**RogueClick 90s** is a small *auto-clicker rogue-lite* web game with a nostalgic 90s vibe.  
+The player clicks to collect **Run Points 📼**, which can be spent in a random shop.  
+At the end of each run, part of these points is converted into **Permanent Points 🎟**, used to unlock lasting upgrades and progress across runs.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🚀 Tech Stack
+- ⚡ Next.js 14  
+- 🎨 Panda CSS  
+- ♿ React Aria Components  
+- 📦 Zustand  
+- 🔄 TanStack Query  
+- ✅ Zod  
+- 🧪 Vitest & Playwright  
 
-## Deploy on Vercel
+### ▶️ Run locally
+- `pnpm install`  
+- `pnpm panda`  
+- `pnpm dev`  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### ✨ Features
+- Dual currency: **Run Points 📼** (temporary) & **Permanent Points 🎟** (progression)  
+- Random shop each run 🎲  
+- Permanent upgrades system to improve future runs 💎  
+- Retro 90s-inspired design 🌌  
