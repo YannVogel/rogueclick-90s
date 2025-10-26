@@ -7,6 +7,7 @@ type Enemy = {
   hp: number
   maxHp: number
   reward: number // points gagnés quand il est battu
+  image: string // emoji ou chemin vers une image
 }
 
 type PlayerStats = {
@@ -31,9 +32,9 @@ type GameState = {
 }
 
 const enemies: Enemy[] = [
-  { id: 1, name: 'Slime VHS 👾', hp: 5, maxHp: 5, reward: 1 },
-  { id: 2, name: 'Rat mutant 🐀', hp: 10, maxHp: 10, reward: 2 },
-  { id: 3, name: 'Fantôme VHS 👻', hp: 15, maxHp: 15, reward: 3 },
+  { id: 1, name: 'Slime VHS', hp: 5, maxHp: 5, reward: 1, image: '👾' },
+  { id: 2, name: 'Rat mutant', hp: 10, maxHp: 10, reward: 2, image: '🐀' },
+  { id: 3, name: 'Fantôme VHS', hp: 15, maxHp: 15, reward: 3, image: '👻' },
 ]
 
 function getRandomEnemy(): Enemy {
